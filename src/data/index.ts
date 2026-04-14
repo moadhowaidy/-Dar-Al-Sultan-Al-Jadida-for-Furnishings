@@ -43,7 +43,7 @@ export const COMPANY = {
 export const PRODUCTS: Product[] = [
   {
     id: 1,
-    image: '/src/assets/products/carpet-1-libyan-grid.jpg',
+    image: '/products/carpet-1-libyan-grid.jpg',
     nameAR: 'البساط الليبي المخطط',
     nameEN: 'Traditional Libyan Striped Carpet',
     descAR: 'مصنوع يدوياً بألوان الأحمر والأسود والذهبي',
@@ -53,7 +53,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 2,
-    image: '/src/assets/products/carpet-2-libyan-striped.jpg',
+    image: '/products/carpet-2-libyan-striped.jpg',
     nameAR: 'بساط مقسّم بزخارف متنوعة',
     nameEN: 'Grid Motif Libyan Handwoven Rug',
     descAR: 'نسيج يدوي بزخارف هندسية متعددة في مربعات',
@@ -63,7 +63,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 3,
-    image: '/src/assets/products/carpet-3-turkish-diamond.jpg',
+    image: '/products/carpet-3-turkish-diamond.jpg',
     nameAR: 'البساط الأمازيغي بنقش الغزلان',
     nameEN: 'Berber Amazigh Deer Motif Carpet',
     descAR: 'نقوش غزلان أمازيغية أصيلة على خلفية خمرية',
@@ -73,7 +73,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 4,
-    image: '/src/assets/products/carpet-4-amazigh-deer.jpg',
+    image: '/products/carpet-4-amazigh-deer.jpg',
     nameAR: 'السجادة التركية الكلاسيكية',
     nameEN: 'Classic Turkish Carpet',
     descAR: 'صناعة تركية فاخرة بنقش المعينات',
@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 5,
-    image: '/src/assets/products/carpet-5-bukhara-velvet.jpg',
+    image: '/products/carpet-5-bukhara-velvet.jpg',
     nameAR: 'سجادة بخارى المخملية',
     nameEN: 'Bukhara Velvet Carpet',
     descAR: 'نقش بخارى متكرر بخامة مخملية ناعمة',
