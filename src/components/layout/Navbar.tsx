@@ -66,7 +66,7 @@ const navLinks = [
   { to: '/', label: TEXT.nav.home },
   { to: '/products', label: TEXT.nav.products },
   { to: '/about', label: TEXT.nav.about },
-  { to: '#contact', label: TEXT.nav.contact },
+  { to: '/contact', label: TEXT.nav.contact },
 ] as const
 
 export default function Navbar() {
@@ -87,15 +87,10 @@ export default function Navbar() {
 
   const isActive = (to: string) => {
     if (to === '/') return location.pathname === '/'
-    if (to.startsWith('#')) return false
     return location.pathname.startsWith(to)
   }
 
-  const handleNavClick = (to: string) => {
-    if (to === '#contact') {
-      const el = document.getElementById('contact')
-      if (el) el.scrollIntoView({ behavior: 'smooth' })
-    }
+  const handleNavClick = () => {
     setMobileOpen(false)
   }
 
@@ -119,8 +114,8 @@ export default function Navbar() {
           {navLinks.map((link) => (
             <Link
               key={link.to}
-              to={link.to === '#contact' ? (location.pathname === '/' ? '#contact' : '/#contact') : link.to}
-              onClick={() => handleNavClick(link.to)}
+              to={link.to}
+              onClick={handleNavClick}
               className={`relative px-4 py-2 text-sm font-semibold transition-colors ${
                 isActive(link.to) ? 'text-gold' : 'text-white/70 hover:text-white'
               }`}
@@ -164,8 +159,8 @@ export default function Navbar() {
               {navLinks.map((link) => (
                 <Link
                   key={link.to}
-                  to={link.to === '#contact' ? (location.pathname === '/' ? '#contact' : '/#contact') : link.to}
-                  onClick={() => handleNavClick(link.to)}
+                  to={link.to}
+                  onClick={handleNavClick}
                   className={`px-4 py-3 rounded-lg text-sm font-semibold transition-colors ${
                     isActive(link.to) ? 'text-gold bg-gold/10' : 'text-white/70 hover:text-white hover:bg-white/5'
                   }`}

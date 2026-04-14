@@ -26,24 +26,25 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-ink overflow-hidden">
-      {/* Decorative background pattern */}
-      <div className="absolute inset-0 opacity-5">
-        <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="hero-pattern" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M30 0 L60 30 L30 60 L0 30 Z" fill="none" stroke="#C49A20" strokeWidth="0.5" />
-              <circle cx="30" cy="30" r="3" fill="none" stroke="#C49A20" strokeWidth="0.3" />
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#hero-pattern)" />
-        </svg>
-      </div>
+      <video
+        className="absolute inset-0 w-full h-full object-cover hidden md:block"
+        src="/hero-bg.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+
+      <div
+        className="absolute inset-0 z-10"
+        style={{ backgroundColor: 'rgba(10, 6, 2, 0.68)' }}
+      />
 
       <motion.div
         variants={stagger}
         initial="hidden"
         animate="show"
-        className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center pt-24 pb-16"
+        className="relative z-20 max-w-4xl mx-auto px-4 sm:px-6 text-center pt-24 pb-16"
       >
         {/* Badge */}
         <motion.div variants={fadeUp} className="mb-6">
