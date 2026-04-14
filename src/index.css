@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #C49A20;
+  --color-gold-light: #E8C84A;
+  --color-gold-dark: #8B6E15;
+  --color-ink: #1A1208;
+  --color-cream: #FDF8EC;
+  --color-whatsapp: #25D366;
+  --font-cairo: 'Cairo', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+  --font-inter: 'Inter', sans-serif;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  html[lang="ar"] body {
+    font-family: var(--font-cairo);
+  }
+
+  html[lang="en"] body {
+    font-family: var(--font-inter);
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background-color: #C49A20;
+    color: #1A1208;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

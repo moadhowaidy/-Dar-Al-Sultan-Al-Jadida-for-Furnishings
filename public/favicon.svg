@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#1A1208"/>
+  <!-- Simplified crown flame -->
+  <path d="M16 3 C15.5 5 14 6.5 13.5 7.5 C14.2 7 15.2 6 16 5.5 C16.8 6 17.8 7 18.5 7.5 C18 6.5 16.5 5 16 3Z" fill="#C49A20"/>
+  <!-- Crown scrolls -->
+  <path d="M13.5 7.5 C12 8.5 10 8.5 9 9.5 C8.2 10.5 9 11.5 10 11" fill="none" stroke="#C49A20" stroke-width="0.8" stroke-linecap="round"/>
+  <path d="M18.5 7.5 C20 8.5 22 8.5 23 9.5 C23.8 10.5 23 11.5 22 11" fill="none" stroke="#C49A20" stroke-width="0.8" stroke-linecap="round"/>
+  <!-- M Monogram -->
+  <g fill="#C49A20">
+    <rect x="8" y="13" width="2.5" height="12"/>
+    <rect x="21.5" y="13" width="2.5" height="12"/>
+    <polygon points="10.5,13 10.5,15 16,22 16,20"/>
+    <polygon points="21.5,13 21.5,15 16,22 16,20"/>
+    <polygon points="12.5,17 12.5,18.5 16,21.5 16,20"/>
+    <polygon points="19.5,17 19.5,18.5 16,21.5 16,20"/>
+    <rect x="7.5" y="26" width="17" height="1.2" rx="0.6"/>
+  </g>
+</svg>

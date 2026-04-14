@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#FFFFFF"/>
+
+  <!-- PART 1: ORNATE CROWN -->
+  <g fill="none" stroke="#C49A20" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Central pointed leaf/flame -->
+    <path d="M200 30 C197 45 188 55 185 65 C190 60 196 52 200 48 C204 52 210 60 215 65 C212 55 203 45 200 30Z" fill="#C49A20" stroke="none"/>
+    <!-- Small inner petals flanking center -->
+    <path d="M185 65 C182 72 176 78 172 82 C178 78 184 72 188 68" stroke-width="2" fill="#C49A20" stroke="none"/>
+    <path d="M215 65 C218 72 224 78 228 82 C222 78 216 72 212 68" stroke-width="2" fill="#C49A20" stroke="none"/>
+
+    <!-- Left filigree scroll  main curve -->
+    <path d="M185 65 C175 72 160 74 148 72 C136 70 126 66 120 75 C114 84 122 92 132 90 C140 88 136 80 130 82" stroke-width="2.5" stroke="#C49A20"/>
+    <!-- Left scroll  secondary wave -->
+    <path d="M148 72 C144 78 138 84 142 90 C146 96 154 92 152 86" stroke-width="2" stroke="#C49A20"/>
+    <!-- Left scroll  tertiary curl -->
+    <path d="M160 74 C156 80 150 82 148 78" stroke-width="1.5" stroke="#C49A20"/>
+    <!-- Left outer tendril -->
+    <path d="M120 75 C112 72 104 76 108 84 C110 88 116 86 114 82" stroke-width="1.8" stroke="#C49A20"/>
+
+    <!-- Right filigree scroll  main curve (mirrored) -->
+    <path d="M215 65 C225 72 240 74 252 72 C264 70 274 66 280 75 C286 84 278 92 268 90 C260 88 264 80 270 82" stroke-width="2.5" stroke="#C49A20"/>
+    <!-- Right scroll  secondary wave -->
+    <path d="M252 72 C256 78 262 84 258 90 C254 96 246 92 248 86" stroke-width="2" stroke="#C49A20"/>
+    <!-- Right scroll  tertiary curl -->
+    <path d="M240 74 C244 80 250 82 252 78" stroke-width="1.5" stroke="#C49A20"/>
+    <!-- Right outer tendril -->
+    <path d="M280 75 C288 72 296 76 292 84 C290 88 284 86 286 82" stroke-width="1.8" stroke="#C49A20"/>
+
+    <!-- Tiny decorative dots along the scrolls -->
+    <circle cx="132" cy="90" r="2" fill="#C49A20" stroke="none"/>
+    <circle cx="268" cy="90" r="2" fill="#C49A20" stroke="none"/>
+    <circle cx="108" cy="84" r="1.5" fill="#C49A20" stroke="none"/>
+    <circle cx="292" cy="84" r="1.5" fill="#C49A20" stroke="none"/>
+    <circle cx="152" cy="86" r="1.5" fill="#C49A20" stroke="none"/>
+    <circle cx="248" cy="86" r="1.5" fill="#C49A20" stroke="none"/>
+  </g>
+
+  <!-- PART 2: GEOMETRIC M MONOGRAM -->
+  <g fill="#C49A20">
+    <!-- Left vertical bar -->
+    <rect x="108" y="115" width="18" height="130" />
+    <!-- Right vertical bar -->
+    <rect x="274" y="115" width="18" height="130" />
+
+    <!-- Left diagonal  from top of left bar angling inward/downward to center V -->
+    <polygon points="126,115 126,130 200,220 200,205" />
+    <!-- Right diagonal  from top of right bar angling inward/downward to center V -->
+    <polygon points="274,115 274,130 200,220 200,205" />
+
+    <!-- Inner nested chevron  smaller V inside the main V -->
+    <polygon points="160,160 160,175 200,205 200,190" />
+    <polygon points="240,160 240,175 200,205 200,190" />
+
+    <!-- Base line under the monogram -->
+    <rect x="105" y="250" width="190" height="5" rx="2.5" />
+  </g>
+
+  <!-- PART 3: ARABIC TEXT -->
+  <text
+    x="200"
+    y="305"
+    text-anchor="middle"
+    fill="#C49A20"
+    font-family="Cairo, sans-serif"
+    font-size="28"
+    font-weight="700"
+    letter-spacing="2"
+    direction="rtl"
+  >/'1 'D3D7'F 'D,/J/) DDEA1H4'*</text>
+</svg>
