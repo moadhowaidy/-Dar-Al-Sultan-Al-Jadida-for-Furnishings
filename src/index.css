@@ -41,3 +41,5 @@
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
 }
+
+.footer-signature-link{color:#6B0F1A;}

@@ -5,6 +5,8 @@ import { COMPANY, TEXT } from '../../data'
 
 export default function Footer() {
   const { lang, t } = useLang()
+  const signatureHref = 'https://swiftscaled.com'
+  const signatureLabel = 'SWIFTSCALED'
 
   return (
     <footer className="bg-ink border-t border-gold/20">
@@ -90,6 +92,9 @@ export default function Footer() {
           <p className="text-white/30 text-xs">
             &copy; {new Date().getFullYear()} {t(COMPANY.nameAR, COMPANY.nameEN)}.{' '}
             {t(TEXT.footer.rights.ar, TEXT.footer.rights.en)}.
+          </p>
+          <p className="text-white/40 text-[10px] leading-tight mt-1">
+            Powered by <a href={signatureHref} target="_blank" rel="noopener noreferrer" className="footer-signature-link">{signatureLabel}</a>
           </p>
         </div>
       </div>
