@@ -53,16 +53,6 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 2,
-    image: '/products/carpet-2-libyan-striped.jpg',
-    nameAR: 'بساط مقسّم بزخارف متنوعة',
-    nameEN: 'Grid Motif Libyan Handwoven Rug',
-    descAR: 'نسيج يدوي بزخارف هندسية متعددة في مربعات',
-    descEN: 'Diverse geometric panels, each hand-embroidered',
-    origin: 'Libya',
-    colors: ['#7A1515', '#1a3a8f', '#2d5a2d', 'white'],
-  },
-  {
-    id: 3,
     image: '/products/carpet-3-turkish-diamond.jpg',
     nameAR: 'البساط الأمازيغي بنقش الغزلان',
     nameEN: 'Berber Amazigh Deer Motif Carpet',
@@ -72,7 +62,7 @@ export const PRODUCTS: Product[] = [
     colors: ['#6B1111', '#2d5a2d', 'white', '#1a1a1a'],
   },
   {
-    id: 4,
+    id: 3,
     image: '/products/carpet-4-amazigh-deer.jpg',
     nameAR: 'السجادة التركية الكلاسيكية',
     nameEN: 'Classic Turkish Carpet',
@@ -80,16 +70,6 @@ export const PRODUCTS: Product[] = [
     descEN: 'Premium Made in Türkiye — diamond medallion pattern',
     origin: 'Türkiye',
     colors: ['#8B1A1A', '#D4A017', '#1a1a3e', 'white'],
-  },
-  {
-    id: 5,
-    image: '/products/carpet-5-bukhara-velvet.jpg',
-    nameAR: 'سجادة بخارى المخملية',
-    nameEN: 'Bukhara Velvet Carpet',
-    descAR: 'نقش بخارى متكرر بخامة مخملية ناعمة',
-    descEN: 'Soft velvet texture with classic repeating Bukhara motifs',
-    origin: 'Bukhara',
-    colors: ['#7A1515', '#1a1a1a', 'white', '#8B1A1A'],
   },
 ]
 
