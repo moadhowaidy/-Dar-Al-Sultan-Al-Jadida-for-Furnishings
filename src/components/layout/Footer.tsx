@@ -70,21 +70,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Legal */}
-          <div>
-            <h4 className="text-gold font-semibold mb-4 text-sm uppercase tracking-wider">
-              {t(TEXT.footer.legal.ar, TEXT.footer.legal.en)}
-            </h4>
-            <div className="space-y-2">
-              <div className="flex items-center gap-2">
-                <span className="text-white/40 text-xs">{t(TEXT.footer.licenseLabel.ar, TEXT.footer.licenseLabel.en)}:</span>
-                <span className="text-gold font-mono text-sm font-bold">{COMPANY.license}</span>
-              </div>
-              <div className="text-white/30 text-xs">
-                {t(`صالح حتى ${COMPANY.licenseTo}`, `Valid until ${COMPANY.licenseTo}`)}
-              </div>
-            </div>
-          </div>
         </div>
 
         {/* Bottom bar */}
