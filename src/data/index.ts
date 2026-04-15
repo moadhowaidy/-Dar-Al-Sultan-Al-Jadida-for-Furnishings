@@ -13,6 +13,8 @@ export interface Product {
   descAR: string
   descEN: string
   origin: string
+  type?: string
+  tags?: string[]
   colors: string[]
 }
 
@@ -70,6 +72,48 @@ export const PRODUCTS: Product[] = [
     descEN: 'Premium Made in Türkiye — diamond medallion pattern',
     origin: 'Türkiye',
     colors: ['#8B1A1A', '#D4A017', '#1a1a3e', 'white'],
+  },
+  {
+    id: 6,
+    nameAR: 'بطانية بصفات كورية وإسبانية مميزة',
+    nameEN: 'Premium Korean & Spanish Quality Blanket',
+    descAR:
+      'بطانية فاخرة ذات نسيج كثيف ومخملي بمواصفات كورية وإسبانية عالية الجودة. تتميز بألوانها الدافئة من الكريمي والبيج والرمادي، مع حواف مزخرفة أنيقة. مثالية لغرف النوم الفاخرة.',
+    descEN:
+      'A luxury thick-pile blanket combining Korean and Spanish quality standards. Features warm tones of cream, beige and grey with elegant decorative edges. Perfect for premium bedroom sets.',
+    origin: 'Korea / Spain',
+    type: 'Luxury Blanket',
+    colors: ['#C4A882', '#9E9E9E', '#FFFFFF', '#8B7355'],
+    tags: ['blanket', 'korean', 'spanish', 'luxury', 'bedroom'],
+    image: '/products/product-6-blanket-korean-spanish.jpg',
+  },
+  {
+    id: 7,
+    nameAR: 'يورغان إسباني فاخر — طقم كامل',
+    nameEN: 'Luxury Spanish Comforter Set — 7 Pieces',
+    descAR:
+      'طقم يورغان إسباني فاخر من 7 قطع بلون بيج ناعم مع تطريز زهور بيضاء أنيقة على الوسائد. قماش عالي الجودة ناعم الملمس، مريح في جميع الفصول. الطراز: J5-D-06.',
+    descEN:
+      'A 7-piece luxury Spanish comforter set in soft beige with elegant white floral embroidery on pillows. Premium soft-touch fabric, all-season comfort. Model: J5-D-06.',
+    origin: 'Spain',
+    type: 'Comforter Set',
+    colors: ['#E8DCC8', '#FFFFFF', '#D4C4A0'],
+    tags: ['comforter', 'spanish', 'bedroom', '7-piece', 'embroidery'],
+    image: '/products/product-7-comforter-spanish.jpg',
+  },
+  {
+    id: 8,
+    nameAR: 'سجادات صلاة مخملية — متعددة الألوان',
+    nameEN: 'Velvet Prayer Mats — Available in 6 Colours',
+    descAR:
+      'سجادات صلاة مخملية فاخرة بنقوش إسلامية منقوشة وهامش من الخيوط. متوفرة بستة ألوان: أرجواني، كحلي، بني، عنابي، أخضر، وأزرق فاتح. ناعمة الملمس ومتينة للاستخدام اليومي.',
+    descEN:
+      'Premium velvet prayer mats with embossed Islamic motifs and tassel fringe. Available in 6 colours: purple, navy, brown, maroon, green, and light blue. Soft, durable, and suitable for daily use.',
+    origin: 'Turkey',
+    type: 'Prayer Mat',
+    colors: ['#7B2FBE', '#1a3a8f', '#5C3317', '#800020', '#145A32', '#87CEEB'],
+    tags: ['prayer-mat', 'velvet', 'islamic', 'multiple-colours', 'religious'],
+    image: '/products/product-8-prayer-rugs.jpg',
   },
 ]
 
